@@ -1,0 +1,119 @@
+{
+  "cards":[
+    {
+      "id":1,
+      "p":"sen(θ)",
+      "a":"(cateto oposto)/(hipotenusa)"
+    },
+    {
+      "id":2,
+      "p":"cos(θ)",
+      "a":"(cateto adjacente)/(hipotenusa)"
+    },
+    {
+      "id":3,
+      "p":"tan(θ)",
+      "a":"(cateto oposto)/(cateto adjacente) = sen(θ)/cos(θ)"
+    },
+    {
+      "id":4,
+      "p":"eixo x do ciclo trigonométrico",
+      "a":"cos(θ)"
+    },
+    {
+      "id":5,
+      "p":"eixo y to ciclo trigonométrico",
+      "a":"sen(θ)"
+    },
+    {
+      "id":6,
+      "p":"sen²(θ) + cos²(θ)",
+      "a": "1"
+    },
+    {
+      "id":7,
+      "p":"sen(-θ)",
+      "a":"-sen(θ)"
+    },
+    {
+      "id":8,
+      "p":"cos(-θ)",
+      "a":"cos(θ)"
+    },
+    {
+      "id":9,
+      "p":"tan(-θ)",
+      "a":"-tan(θ)"
+    },
+    {
+      "id":10,
+      "p":"sin(θ+𝜋/2)",
+      "a": "cos(θ)"
+    },
+    {
+      "id":11,
+      "p":"cos(θ+𝜋/2)",
+      "a":"-sin(θ)"
+    },
+    {
+      "id":12,
+      "p":"sin(θ+𝜋)",
+      "a":"-sin(θ)"
+    },
+    {
+      "id":13,
+      "p":"cos(θ+𝜋)",
+      "a":"-cos(θ)"
+    },
+    {
+      "id":14,
+      "p":"sin(θ-𝜋/2)",
+      "a":"-cos(θ)"
+    },
+    {
+      "id":15,
+      "p":"cos(θ-𝜋/2)",
+      "a":"sin(θ)"
+    },
+    {
+      "id":16,
+      "p":"sin(θ-𝜋)",
+      "a":"-sin(θ)"
+    },
+    {
+      "id":17,
+      "p":"cos(θ-𝜋)",
+      "a":"-cos(θ)"
+    },
+    {
+      "id":18,
+      "p":"𝜙 graus em radianos",
+      "a":"𝜙 * 𝜋/180"
+    },
+    {
+      "id":19,
+      "p":"θ radianos em graus",
+      "a":"θ * 180/𝜋"
+    },
+    {
+      "id":20,
+      "p":"r (coordenada polar) em termos de x, y (coordenadas cartesianas)",
+      "a":"r = √(x² + y²)"
+    },
+    {
+      "id":21,
+      "p":"θ (coordenada polar) em termos de x, y (coordenadas cartesianas)",
+      "a":"θ = arctan(y/x)"
+    },
+    {
+      "id":22,
+      "p":"x (coordenada cartesiana) em termos de r, θ (coordenadas polares)",
+      "a":"x = rcos(θ)"
+    },
+    {
+      "id":23,
+      "p": "y (coordenada cartesiana) em termos de r, θ (coordenadas polares)",
+      "a": "y = rsen(θ)"
+    }
+  ]
+}
