@@ -1,5 +1,5 @@
 {
-  "cards":[
+  "trigonometria":[
     {
       "id":1,
       "p":"sen(θ)",
@@ -114,6 +114,38 @@
       "id":23,
       "p": "y (coordenada cartesiana) em termos de r, θ (coordenadas polares)",
       "a": "y = rsen(θ)"
+    }
+  ],
+  "números_complexos":[
+    {
+      "id":1,
+      "p":"definição de i",
+      "a":"√(-1)"
+    },
+    {
+      "id":2,
+      "p":"forma geral retangular de um número complexo",
+      "a":"z = x + iy"
+    },
+    {
+      "id":3,
+      "p":"forma geral polar de um número complexo",
+      "a":"z = r(cos(θ) + isin(θ)) = r.exp(iθ)"
+    },
+    {
+      "id":4,
+      "p":"exp(iθ)",
+      "a":"cos(θ) + isin(θ)"
+    },
+    {
+      "id":5,
+      "p":"eixo real no plano complexo",
+      "a":"eixo x"
+    },
+    {
+      "id":6,
+      "p":"eixo imaginário no plano complexo",
+      "a":"eixo y"
     }
   ]
 }
