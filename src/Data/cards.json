@@ -147,5 +147,62 @@
       "p":"eixo imaginário no plano complexo",
       "a":"eixo y"
     }
+  ],
+  "álgebra_linear":[
+    {
+      "id":1,
+      "p":"quantidades escalares",
+      "a":"aquelas que apresentam apenas magnitude ('tamanho')"
+    },
+    {
+      "id":2,
+      "p":"quantidades vetoriais",
+      "a":"aquelas descritas tanto por uma magnitude quanto por uma direção"
+    },
+    {
+      "id":3,
+      "p":"forma geral de um vetor coluna",
+      "a":"v = [[v1] [v2] ... [vn]]"
+    },
+    {
+      "id":4,
+      "p":"||v||, para v um vetor geral",
+      "a":"√( v₁² + v₂² + ... + vₙ²)"
+    },
+    {
+      "id":5,
+      "p":"para somar dois vetores ...",
+      "a":"... somamos todos os seus componentes"
+    },
+    {
+      "id":6,
+      "p":"para multiplicar um vetor por um escalar ...",
+      "a":"... multiplicamos cada componente por este escalar"
+    },
+    {
+      "id":7,
+      "p":"forma geral de uma matriz",
+      "a":"X = [[x₁₁, x₁₂, ..., x₁ₘ] [x₂₁, x₂₂, ..., x₂ₘ] [  : ,  : , ...,  :  ] [xₙ₁, xₙ₂, ..., xₙₘ]]"
+    },
+    {
+      "id":8,
+      "p":"para somar duas matrizes ...",
+      "a":"... somamos todos os seus componentes"
+    },
+    {
+      "id":9,
+      "p":"para multiplicar uma matriz por um escalar ...",
+      "a":"... multiplicamos cada componente por este escalar"
+    },
+    {
+      "id":10,
+      "p":"para multiplicar uma matriz por um vetor ...",
+      "a":"... fazemos o produto interno deste vetor por cada linha da matriz"
+    },
+    {
+      "id":11,
+      "p":"para multiplicar duas matrizes ...",
+      "a":"... fazemos a multiplicação de cada coluna da segunda matriz pela primeira matriz"
+    }
   ]
 }

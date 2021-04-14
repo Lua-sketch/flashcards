@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Início, Navigation, Trigonometria, NúmerosComplexos } from "./components";
+import { Início, Navigation, Trigonometria, NúmerosComplexos, AlgebraLinear } from "./components";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
           <Route path="/" exact component={() => <Início />} />
           <Route path="/trigonometria" exact component={() => <Trigonometria />} />
           <Route path="/números_complexos" exact component={() => <NúmerosComplexos />} />
+          <Route path="/álgebra_linear" exact component={() => <AlgebraLinear />} />
         </Switch>
       </Router>
     </div>

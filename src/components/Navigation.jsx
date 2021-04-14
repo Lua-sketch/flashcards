@@ -41,6 +41,15 @@ function Navigation(props) {
                   Números Complexos
                 </Link>
               </li>
+              <li
+                className={`nav-item  ${
+                  props.location.pathname === "/álgebra_linear" ? "active" : ""
+                }`}
+              >
+                <Link className="nav-link" to="/álgebra_linear">
+                  Álgebra Linear
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
