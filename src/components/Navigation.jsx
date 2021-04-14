@@ -50,6 +50,15 @@ function Navigation(props) {
                   Álgebra Linear
                 </Link>
               </li>
+              <li
+                className={`nav-item  ${
+                  props.location.pathname === "/comp_clássica_python" ? "active" : ""
+                }`}
+              >
+                <Link className="nav-link" to="/comp_clássica_python">
+                  Computação Clássica e Python
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

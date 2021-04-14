@@ -204,5 +204,87 @@
       "p":"para multiplicar duas matrizes ...",
       "a":"... fazemos a multiplicação de cada coluna da segunda matriz pela primeira matriz"
     }
+  ],
+  "comp_clássica_python":[
+    {
+      "id":1,
+      "p":"bits",
+      "a":"unidades de informação clássica; cada bit pode ter valor 0 ou 1"
+    },
+    {
+      "id":2,
+      "p":"lógica booleana",
+      "a":"estudo de funções booleanas, que mapeiam argumentos (em forma de bits) a dois possíveis resultados (0 ou 1)"
+    },
+    {
+      "id":3,
+      "p":"AND",
+      "a":"porta lógica que só resulta em 1/verdadeiro quando ambos os argumentos são 1/verdadeiro"
+    },
+    {
+      "id":4,
+      "p":"OR",
+      "a":"porta lógica que resulta em 1/verdadeiro quando pelo menos um argumento é 1/verdadeiro"
+    },
+    {
+      "id":5,
+      "p":"NOT",
+      "a":"porta lógica que nega o valor do argumento que recebe"
+    },
+    {
+      "id":6,
+      "p":"qual o argumento que devemos passar à função print()?",
+      "a":"uma string com o que queremos escrever na tela"
+    },
+    {
+      "id":7,
+      "p":"tipos de variáveis",
+      "a":"string, integer, float, list, e Boolean"
+    },
+    {
+      "id":8,
+      "p":"símbolos para soma, subtração, multiplicação e divisão em Python",
+      "a":"+, -, *, /"
+    },
+    {
+      "id":9,
+      "p":"comparações que podemos fazer em Python",
+      "a":">, <, >=, <=, ==, !="
+    },
+    {
+      "id":10,
+      "p":"sintaxe de uma lista",
+      "a":"lista = [item1, item2, ..., itemn]"
+    },
+    {
+      "id":11,
+      "p":"método utlizado para adicionar um item a uma lista",
+      "a":".append()"
+    },
+    {
+      "id":12,
+      "p":"método utilizado para remover um item de uma lista",
+      "a":".remove()"
+    },
+    {
+      "id":13,
+      "p":"sintaxe de condicionais",
+      "a":"if condição: ... else: ..."
+    },
+    {
+      "id":14,
+      "p":"usamos o loop while quando ...",
+      "a":"... queremos repetir uma tarefa enquanto uma condição for verdadeira"
+    },
+    {
+      "id":15,
+      "p":"usamos o loop for quando ...",
+      "a":"... queremos iterar sobre uma sequência"
+    },
+    {
+      "id":16,
+      "p":"definimos uma função usando ...",
+      "a":"def"
+    }
   ]
 }
