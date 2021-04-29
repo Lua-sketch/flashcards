@@ -1,5 +1,5 @@
 {
-  "trigonometria":[
+  "revisão_mat":[
     {
       "id":1,
       "p":"sen(θ)",
@@ -114,36 +114,34 @@
       "id":23,
       "p": "y (coordenada cartesiana) em termos de r, θ (coordenadas polares)",
       "a": "y = rsen(θ)"
-    }
-  ],
-  "números_complexos":[
+    },
     {
-      "id":1,
+      "id":24,
       "p":"definição de i",
       "a":"√(-1)"
     },
     {
-      "id":2,
+      "id":25,
       "p":"forma geral retangular de um número complexo",
       "a":"z = x + iy"
     },
     {
-      "id":3,
+      "id":26,
       "p":"forma geral polar de um número complexo",
       "a":"z = r(cos(θ) + isin(θ)) = r.exp(iθ)"
     },
     {
-      "id":4,
+      "id":27,
       "p":"exp(iθ)",
       "a":"cos(θ) + isin(θ)"
     },
     {
-      "id":5,
+      "id":28,
       "p":"eixo real no plano complexo",
       "a":"eixo x"
     },
     {
-      "id":6,
+      "id":29,
       "p":"eixo imaginário no plano complexo",
       "a":"eixo y"
     }
@@ -285,6 +283,53 @@
       "id":16,
       "p":"definimos uma função usando ...",
       "a":"def"
+    }
+  ],
+  "mecânica_quântica":[
+    {
+      "id":1,
+      "p":"na computação quântica, queremos tirar proveito de três fenômenos quânticos; são eles",
+      "a":"interferência quântica, superposição e emaranhamento"
+    },
+    {
+      "id":2,
+      "p":"características de partículas (antes da mecânica quântica)",
+      "a":"posição definida, discretas, ricocheteiam ao colidir"
+    },
+    {
+      "id":3,
+      "p":"características de ondas (antes da mecânica quântica)",
+      "a":"sem posição definida, contínuas, interferem ao se encontrar"
+    },
+    {
+      "id":4,
+      "p":"evidência experimental para natureza ondulatória da luz",
+      "a":"experimento de dupla fenda"
+    },
+    {
+      "id":5,
+      "p":"evidência experimental para natureza particular da luz",
+      "a":"efeito fotoelétrico"
+    },
+    {
+      "id":6,
+      "p":"dualidade onda-partícula",
+      "a":"objetos podem ser descritos como partículas E ondas ao mesmo tempo"
+    },
+    {
+      "id":7,
+      "p":"comprimento de onda de De Broglie",
+      "a":"λ = h/(mv)"
+    },
+    {
+      "id":8,
+      "p":"equação de Schrodinger",
+      "a":"i(h/(2π))(∂ψ/∂t) = Hψ"
+    },
+    {
+      "id":9,
+      "p":"operador Hamiltoniano",
+      "a":"H = p²/(2m) + V(x)"
     }
   ]
 }

@@ -7,7 +7,7 @@ import 'firebase/database'
 
 import {DB_CONFIG} from '../Config/Firebase/db_config'
 
-class NúmerosComplexos extends Component{
+class MecânicaQuântica extends Component{
   constructor(props){
     super(props);
 
@@ -18,7 +18,7 @@ class NúmerosComplexos extends Component{
       this.app = firebase.app()
     }
 
-    this.database = this.app.database().ref().child('números_complexos')
+    this.database = this.app.database().ref().child('mecânica_quântica')
 
     this.updateCard = this.updateCard.bind(this)
 
@@ -71,4 +71,4 @@ class NúmerosComplexos extends Component{
   }
 }
 
-export default NúmerosComplexos;
+export default MecânicaQuântica;

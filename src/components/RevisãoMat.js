@@ -7,7 +7,7 @@ import 'firebase/database'
 
 import {DB_CONFIG} from '../Config/Firebase/db_config'
 
-class Trigonometria extends Component{
+class RevisãoMat extends Component{
   constructor(props){
     super(props);
 
@@ -18,7 +18,7 @@ class Trigonometria extends Component{
       this.app = firebase.app()
     }
 
-    this.database = this.app.database().ref().child('trigonometria')
+    this.database = this.app.database().ref().child('revisão_mat')
 
     this.updateCard = this.updateCard.bind(this)
 
@@ -71,4 +71,4 @@ class Trigonometria extends Component{
   }
 }
 
-export default Trigonometria;
+export default RevisãoMat;

@@ -25,20 +25,11 @@ function Navigation(props) {
               </li>
               <li
                 className={`nav-item  ${
-                  props.location.pathname === "/trigonometria" ? "active" : ""
+                  props.location.pathname === "/revisão_mat" ? "active" : ""
                 }`}
               >
-                <Link className="nav-link" to="/trigonometria">
-                  Trigonometria
-                </Link>
-              </li>
-              <li
-                className={`nav-item  ${
-                  props.location.pathname === "/números_complexos" ? "active" : ""
-                }`}
-              >
-                <Link className="nav-link" to="/números_complexos">
-                  Números Complexos
+                <Link className="nav-link" to="/revisão_mat">
+                  Revisão Matemática
                 </Link>
               </li>
               <li
@@ -57,6 +48,15 @@ function Navigation(props) {
               >
                 <Link className="nav-link" to="/comp_clássica_python">
                   Computação Clássica e Python
+                </Link>
+              </li>
+              <li
+                className={`nav-item  ${
+                  props.location.pathname === "/mecânica_quântica" ? "active" : ""
+                }`}
+              >
+                <Link className="nav-link" to="/mecânica_quântica">
+                  Mecânica Quântica
                 </Link>
               </li>
             </ul>
